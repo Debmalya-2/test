@@ -89,7 +89,6 @@ public class LinkedList{
         while(currNode != null){
             Node nextNode = currNode.next;
             currNode.next = prevNode;
-
             prevNode = currNode;
             currNode = nextNode;
         }
